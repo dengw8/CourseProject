@@ -1,0 +1,256 @@
+body {
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+#bottom-positioner {
+    position: absolute;
+    left: 50%;
+    bottom: 150px;
+} 
+#button {
+    background-image: url(assets/images/atplus_white.png);
+    background-repeat: no-repeat;
+    background-color: #9a9ece;
+    background-position: center;
+    background-size: 32px, 32px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#button:hover {
+    background: url(assets/images/atplus_green.png) center no-repeat rgba(48, 63, 159, 1);
+    background-size: 40px, 40px;
+    width: 50px;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: -10px;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#info-bar {
+    background-color: #7e7e7e;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+#button:hover #info-bar{
+    position: absolute;
+    bottom: 60px;
+    left: -45px;
+    width: 140px;
+    height: 140px;
+    opacity: 1;
+}
+.info {
+    color: white;
+    font-size: 15pt;
+}
+ul {
+    list-style-type: none;
+}
+.user {
+    margin-top: -3px;
+}
+.user span{
+    position: relative;
+    top: -6px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.comment {
+    margin-left: -10px;
+    margin-top: 5px;
+}
+.comment span{
+    font-size: 25pt;
+    padding-left: 20px;
+}
+.posted {
+    float: left;
+    margin-left: -15px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.posted span{
+    position: relative;
+    top: -5px;
+    padding-bottom: 20px;
+    padding-left: 6px;
+    color: #079E6E;
+}
+.like {
+    margin-top: 8px;
+}
+.like span{
+    position: relative;
+    top: -6px;
+    padding-left: 6px;
+    color: #079E6E;
+}
+.mask {
+    background-image: url("assets/images/mask.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+#button:hover .mask{
+    position: absolute;
+    bottom: 40px;
+    left: -60px;
+    opacity: 1;
+}
+.history {
+    background-image: url("assets/images/history.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+#button:hover .history {
+    position: absolute;
+    opacity: 1;
+    bottom: 0px;
+    left: -70px;
+}
+.message {
+    background-image: url("assets/images/message.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+#button:hover .message {
+    position: absolute;
+    bottom: -38px;
+    left: -58px;
+    opacity: 1;
+}
+.unread {
+    background-color: red;
+    position: relative;
+    float: right;
+    left: 5px;
+    bottom: 5px;
+    padding-bottom: 2px;
+    width: 15px;
+    height: 15px;
+    color: white;
+    font-size: 10pt;
+    text-align: center;
+    border-radius: 50%;
+}
+.setting {
+    background-image: url("assets/images/setting.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #7e7e7e;
+    position: absolute;
+    border-radius: 50%;
+    left: 0px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+#button:hover .setting {
+    position: absolute;
+    bottom: -57px;
+    left: -22px;
+    opacity: 1;
+}
+.sign {
+    background-image: url("assets/images/signin.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #7e7e7e;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+#button:hover .sign {
+    position: absolute;
+    bottom: -60px;
+    left: 23px;
+    opacity: 1;
+}

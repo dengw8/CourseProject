@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg2"
+    tools:context="com.example.jiamoufang.threekingdoms.activities.AddHero">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="编辑英雄"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center"
+        android:background="#00796B"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80009688"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_height="220dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerInside"
+                        android:src="@mipmap/ic_take_photo"
+                        android:id="@+id/imageview_addhero"/>
+                    <ProgressBar
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:id="@+id/progress_bar"
+                        android:visibility="invisible"
+                        style="?android:attr/progressBarStyleHorizontal"/>
+                </LinearLayout>
+
+                <!--纵向分布：属性值-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text="名字"/>
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:id="@+id/tv_hero_name"
+                            android:inputType="text"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text="性别"/>
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:id="@+id/tv_hero_sex"
+                            android:inputType="text"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text="生卒"/>
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:id="@+id/tv_hero_birth"
+                            android:inputType="text"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text="籍贯"/>
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:id="@+id/tv_hero_address"
+                            android:inputType="text"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:text="势力"/>
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:id="@+id/tv_hero_belong"
+                            android:inputType="text"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--横向 属性框-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80009688"
+                android:paddingLeft="10dp"
+                android:paddingBottom="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1.2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="武力"
+                            android:textColor="#fff" />
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_hero_attack"
+                            android:inputType="number"
+                            android:layout_weight="2.3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="统率"
+                            android:textColor="#fff" />
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_hero_leadership"
+                            android:inputType="number"
+                            android:layout_weight="2.3" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="智力"
+                            android:textColor="#fff" />
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_hero_intelligence"
+                            android:inputType="number"
+                            android:layout_weight="2.3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="粮草"
+                            android:textColor="#fff" />
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_hero_food"
+                            android:inputType="number"
+                            android:layout_weight="2.3" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="人物历史简介"
+                    android:textSize="12sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#fff"
+                    android:gravity="center_vertical"
+                    android:background="#80009688"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/etv_hero_introduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="80dp"
+                        android:background="#80BDBDBD" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/add_hero_submit"
+                    android:background="#80009688"
+                    android:text="提交"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

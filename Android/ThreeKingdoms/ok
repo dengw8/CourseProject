@@ -1,0 +1,221 @@
+[33mcommit 341bfac4f5ae051fdd4ff003a2992e88d0ac3c75[m
+Merge: 80e1e20 a3c9b7c
+Author: oliver <a0294100192@gmail.com>
+Date:   Tue Nov 7 23:23:09 2017 +0800
+
+    update
+
+[33mcommit 80e1e2090113595daf129c03b4f2da235cfeac5c[m
+Author: oliver <a0294100192@gmail.com>
+Date:   Tue Nov 7 23:07:49 2017 +0800
+
+    update
+
+[33mcommit a3c9b7cf2dd131528b40ed98acdfb0d8397cb2d1[m
+Merge: 02de47d a8706c0
+Author: OliverWang <a0924100192@gmail.com>
+Date:   Tue Nov 7 20:27:17 2017 +0800
+
+    Merge pull request #1 from jmFang/master
+    
+    checked
+
+[33mcommit a8706c02583d0f9c7173ecae72192d5ee27359f4[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 20:08:08 2017 +0800
+
+    Update README.md
+
+[33mcommit 08779837b2b9887ab7ea39dd20ddbfa8945bd1f9[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 20:06:03 2017 +0800
+
+    Update README.md
+
+[33mcommit 4871a407a504c727d8ee9fbb26a8e5a842540b4e[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 20:01:00 2017 +0800
+
+    Update README.md
+
+[33mcommit 306731ddaf240607d74ac3fa98d9182ea9468ba7[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 19:41:34 2017 +0800
+
+    Update README.md
+
+[33mcommit 79352cd47177cde747cb78d18ad9e7a02f025f10[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 10:12:27 2017 +0800
+
+    Update README.md
+
+[33mcommit 81a2e66ee3846ebb81a7ff8682054d135a5e5ce4[m
+Merge: f87b0b6 211634e
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 10:04:13 2017 +0800
+
+    Merge branch 'master' of https://github.com/jmFang/ThreeKingdoms
+
+[33mcommit f87b0b6ccbd6c40331ccc48a1c5358a3c3fc6a35[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 10:01:58 2017 +0800
+
+    在添加英雄的模块完成了上传英雄到云端的功能，增加了LocalHero用于本地缓存,具体看readme
+
+[33mcommit 211634e32de452022f19a095f05c018140561822[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Tue Nov 7 09:59:16 2017 +0800
+
+    Update README.md
+
+[33mcommit 02de47d1e740c511789bfaf86eb598b38ccd9c8a[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Mon Nov 6 16:05:45 2017 +0800
+
+    完成了添加英雄的UI界面
+
+[33mcommit 91c44b9d3baa8e58b8104fe39dfedc52f1856de2[m
+Merge: 537983b 0221bba
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Mon Nov 6 14:20:31 2017 +0800
+
+    Merge branch 'master' of https://github.com/jmFang/ThreeKingdoms
+
+[33mcommit 537983b01fa4280e021edb5653689a735931c3ef[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Mon Nov 6 14:18:51 2017 +0800
+
+    添加英雄时的拍照或上传英雄头像
+
+[33mcommit 0221bba7ad22076c1263e9162365a23738d3fd85[m
+Merge: cf67203 e6ac2bd
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Mon Nov 6 00:16:37 2017 -0600
+
+    Merge pull request #1 from duang0626/master
+    
+    改了hero类之后做的一些修改
+
+[33mcommit e6ac2bd9bbb26b3c8d2ed44dca1d1b073446d991[m
+Author: Kelo <duang0626@qq.com>
+Date:   Mon Nov 6 14:00:45 2017 +0800
+
+    修改一下heroDetail页面的布局
+
+[33mcommit 1ed5d39a3c2400a3dbcd56dd97446806f7ff4360[m
+Author: Kelo <duang0626@qq.com>
+Date:   Mon Nov 6 13:59:27 2017 +0800
+
+    重新加了一下hero的属性，现在hero类游戏已经完成了，可以直接用了
+
+[33mcommit 58171abd2580600a4be7df1c280faeeae0ef8347[m
+Author: Kelo <duang0626@qq.com>
+Date:   Mon Nov 6 13:58:20 2017 +0800
+
+    改了heros的构造函数
+
+[33mcommit cf6720390ca61a732d4f4d65aa01965bdf460914[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Mon Nov 6 01:52:09 2017 +0800
+
+    增加了Bmob云端SDK和做了添加和查询测试
+
+[33mcommit 6a711cec86e19f85f90f231d7e49f124c060f15c[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 17:09:08 2017 +0800
+
+    增加了一些背景图
+
+[33mcommit cdc0c215e507c31aa89b1bd55e82e58788b8dc9e[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 16:17:15 2017 +0800
+
+    三国志页面大致完成了
+
+[33mcommit 9c98bcdbeaef6f7c04b40ddcaa53cdceb340d3f2[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 15:39:21 2017 +0800
+
+    完善了轮播动画的图片，增加了三国志界面的listview
+
+[33mcommit 8f52ef9c7ecb267298803f183a985c692bf31be3[m
+Merge: c295f97 9daedd5
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 14:18:25 2017 +0800
+
+    Merge branch 'master' of https://github.com/jmFang/ThreeKingdoms
+
+[33mcommit c295f975b7e402b5975b9a44254ee69be184988f[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 14:17:53 2017 +0800
+
+    添加了三国志界面的动画轮播效果
+
+[33mcommit 9daedd58e4ffe030255061f84cc6dda9f349f62c[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 13:52:04 2017 +0800
+
+    Update README.md
+
+[33mcommit 1e65f8d13fb7d20043d88930ffac14f1f437a476[m
+Merge: e606b00 d804dee
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 13:16:48 2017 +0800
+
+    Merge branch 'master' of https://github.com/jmFang/ThreeKingdoms
+
+[33mcommit e606b0095f6b69e898b4b6552cbe884f49f125e5[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 13:16:07 2017 +0800
+
+    添加了任务详情界面
+
+[33mcommit d804deea7ecf17957c3970a2ff710370ea029d5c[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 11:40:11 2017 +0800
+
+    Update README.md
+
+[33mcommit bba448f1f3895388b12f8be28938166322a8abbb[m
+Merge: 8e156d3 d3d2c29
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 11:23:29 2017 +0800
+
+    Merge branch 'master' of https://github.com/jmFang/ThreeKingdoms
+
+[33mcommit 8e156d3a9772628988c57a568a211e79f67334c5[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 11:23:04 2017 +0800
+
+    完成了风云录的卡片式布局
+
+[33mcommit e49d689e35e1e93dcde885c55b503fddd5ecd5a9[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 11:00:19 2017 +0800
+
+    开始做了英雄榜风云录的卡片式布局
+
+[33mcommit d3d2c2971a1d07566ccabb2b1b802bc59690e2f3[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 01:05:49 2017 +0800
+
+    Update README.md
+
+[33mcommit 9bf92f40c09b03498c8331a934f8f8feb1d6dbd0[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 01:03:07 2017 +0800
+
+    Create README.md
+
+[33mcommit eba75d4e0785baa0f78e66fb284998700566e4ed[m
+Author: jmFang <fangjiamou.com@outlook.com>
+Date:   Sun Nov 5 00:57:11 2017 +0800
+
+    项目的基础
+
+[33mcommit 5bc542b5ca6dfca77d5e3f8e531e6ccdb38cc5c4[m
+Author: SYSUYGM <fangjiamou.com@outlook.com>
+Date:   Fri Nov 3 19:56:48 2017 +0800
+
+    Initial commit

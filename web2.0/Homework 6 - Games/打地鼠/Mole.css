@@ -1,0 +1,53 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    font-family:Arial;
+}
+h1, h2 {
+	text-align: center;
+}
+h2 {
+	font-size: 20px;
+}
+#info {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+input {
+	text-align: center;
+	width: 200px;
+	border-radius: 50px;
+	margin:5px;
+	outline: none;
+}
+p {
+	position: relative;
+	left:320px;
+	top:-75px;
+}
+hr {
+	width: 300px;
+}
+#game-wrapper {
+	margin: 0 auto;
+    width: 500px;
+    margin-top: -50px;
+}
+#mole-wrapper {
+	position: relative;
+	left: 100px;
+    width: 500px;
+    margin: 0 auto;
+}
+button {
+	outline: none;
+}
+.mole {
+	margin: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: thin solid gray;
+}

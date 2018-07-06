@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <litepal>
+    <dbname value="threeKMs"></dbname>
+    <version value="5"></version>
+    <list>
+        <mapping class="com.example.jiamoufang.threekingdoms.heros.LocalHero"></mapping>
+        <mapping class="com.example.jiamoufang.threekingdoms.entities.NonEditedHero"></mapping>
+        <mapping class="com.example.jiamoufang.threekingdoms.entities.PkRecords"></mapping>
+        <mapping class="com.example.jiamoufang.threekingdoms.entities.MyLovedHero"></mapping>
+    </list>
+</litepal>

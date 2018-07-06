@@ -1,0 +1,131 @@
+body {
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+    background-image:url(./picture/background.png);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+q {
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+dl {
+	margin: 0;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.header {
+	background-image:url(./picture/bannerbackground.png);
+	background-position: left, top;
+	background-repeat: repeat-x;
+}
+
+.rotten {
+	background-image:url(./picture/rottenbackground.png);
+	background-repeat: repeat-x;
+	background-size: 550px 83px;
+}
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+	border: 4px gray solid;
+	overflow: hidden;
+}
+
+.left-content {
+	width: 550px;
+	float: left;
+}
+
+.right-content {
+	width: 250px;
+	background-color: #A2B964;
+	float: right;
+}
+
+.reviewer {
+	font-style: italic;
+	margin-bottom: 3em;
+}
+
+.leftcolumn {
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+	width: 47%
+}
+
+.rightcolumn {
+	margin-right: 2%;
+	float: right;
+	width: 47%
+}
+
+.cim {
+	float: left;
+	margin-right: 5px;
+}
+
+.quote {
+	font-weight: bold;
+	background-color: #E1D697;
+	border: 2px gray solid;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.pic-id2 {
+	float: left;
+	margin-right: 5px;
+}
+
+#pic-id1 {
+	height: 50px;
+	margin: 0 auto;
+	display: block;
+}
+
+#p-id1 {
+    font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	vertical-align: 15%;
+}
+
+#p-id2 {
+	color: white;
+	vertical-align: 110%;
+}
+
+#page {
+	text-align: center;
+	float: right;
+	margin: 0;
+	padding: 5px;
+	width: 800px;
+	background-color: #A2B964;
+	clear: both;
+	bottom:0px;
+}
+
+#check {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}

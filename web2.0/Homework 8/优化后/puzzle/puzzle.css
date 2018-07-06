@@ -1,0 +1,73 @@
+body {
+	background: url(imagine/timg.jpg);
+}
+h1 {
+	color: yellow;
+	text-align: center;
+	margin-bottom: 50px;
+}
+em {
+	font-style: normal;
+	margin-right: 10px;
+	color: yellow;
+}
+img {
+	width: 150px;
+	height: 150px;
+}
+#container {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+#restart {
+	background-color: #CCFF99;
+	margin: 20px auto;
+	padding: 5px;
+	border: #CCFF99 medium solid;
+	width: 70px;
+	height: 25px;
+}
+#bar {
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+}
+#sample {
+	font: 12px  Verdana;
+	cursor: pointer;
+}
+#times {
+	position: absolute;
+	left: 55px;
+	top: 1px;
+}
+#steps {
+	position: absolute;
+	left: 55px;
+	top: 43px;
+}
+#show {
+	position: absolute;
+	left: 420px;
+	top: -280px;
+}
+#hard {
+    position: absolute;
+	left: 420px;
+	top: -100px;
+}
+.block {
+	background: url(imagine/panda.jpg);
+	position: absolute;
+	width: 100px;
+	height:100px;
+	border: black thin solid;
+}
+#container, #restart:hover {
+	cursor: pointer;
+}
+.block:hover {
+	transform: scale(1.04);
+}

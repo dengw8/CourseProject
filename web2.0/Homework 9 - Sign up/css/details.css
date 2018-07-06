@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+body {
+    background: #384047;
+    font-family: sans-serif;
+
+}
+
+div {
+    width: 500px;
+    height: 250px;
+    margin: 50px auto;
+    border: solid 1px grey;
+    border-radius: 20px;
+    background: white;
+    padding: 10px;
+}
+
+ul {
+    margin: auto;
+    list-style: none;
+}

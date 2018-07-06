@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#00796B"
+    android:orientation="horizontal"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/id_tab_hit_hero"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_tab_hit_hero_img"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@mipmap/tab_weixin_pressed"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="三国志"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/id_tab_heros_pk"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_tab_heros_pk_img"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@mipmap/tab_find_frd_pressed"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="群英会"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/id_tab_herolist"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_tab_herolist_img"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@mipmap/tab_settings_pressed"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="风云录"/>
+        </LinearLayout>
+
+</LinearLayout>

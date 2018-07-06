@@ -1,0 +1,58 @@
+body {
+	padding: 10px;
+	font-family: "Arial","Verdana","sans-serif";
+}
+
+h1 {
+	font-family: "Arial","Verdana","sans-serif";
+}
+
+table {
+	text-align: left;
+	border-collapse:collapse;
+}
+
+thead {
+	background-color: #0C2F93;
+	border: thin solid red;
+	color: white;
+}
+
+tbody {
+    background-color: ;
+}
+
+th, td {
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+tr:nth-child(even) {
+	background-color: #CCCCCC;
+}
+
+#todo {
+	width: 530px;
+	height: 100px;
+}
+
+#staff {
+	width:450px;
+	height: 100px;
+}
+
+.ascend_style {
+    background-color: rgba(165, 176, 252, 1);
+    background-image: url("ascend.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.descend_style {
+	background-color: rgba(165, 176, 252, 1);
+    background-image: url("descend.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+thead:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<title>Sign In</title>
+	<head>
+		<meta charset = "utf-8">
+		<script src="jquery.js"></script>
+		<script src="signup.js"></script>
+		<link rel="stylesheet" href="css/signup.css">
+		<link rel="shortcut icon" href="Icon/panda.ico"/>
+	</head>
+
+	<body>
+
+		<form id="form" action="submit" method="post" onsubmit="return false">
+			<h1>用户注册</h1>
+			<div>
+			    <label>用户名</label>
+				<input id="username" class="content" type="text" name="username" required="required">
+				<div id="usernameValidate" class="validate"></div>
+			</div>
+
+			<div>
+				<label>学号</label>
+				<input id="student_id" class="content" type="text" name="student_id" required="required">
+				<div id="student_idValidate" class="validate"></div>
+			</div>
+
+			<div>
+				<label>电话</label>
+				<input id="phone" class="content" type="text" name="phone" required="required">
+				<div id="phoneValidate" class="validate"></div>
+			</div>
+
+			<div>
+				<label>邮箱</label>
+				<input id="email" class="content" type="text" name="email" required="required">
+			    <div id="emailValidate" class="validate"></div></br>
+			</div>
+
+			<div>
+			    <input id = "reset" type="button" value="重置">
+			    <input id = "submit" type="submit" value="提交">
+			</div>
+		</form>
+	</body>
+</html>

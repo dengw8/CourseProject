@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name = "description" content = "Calculator" />
+	<meta name = "author" content = "D_kelo">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src = "jquery-3.1.1.min.js" ></script>
+	<script type="text/javascript" src = "calculator.js" ></script>
+	<title>Calculator</title>
+</head>
+<body>
+	<div id="calculator">
+    	<form name="computer">
+			<h1>Simple Calculator</h1>
+			<input type="text" id="text" class="screen" value="0">
+			<div>
+				<input type="button" value="7" class="button"  onclick="display(this)">
+				<input type="button" value="8" class="button"  onclick="display(this)">
+				<input type="button" value="9" class="button"  onclick="display(this)">
+				<input type="button" value="/" class="button"  onclick="display(this)">
+				<input type="button" value="4" class="button"  onclick="display(this)">
+				<input type="button" value="5" class="button"  onclick="display(this)">
+				<input type="button" value="6" class="button"  onclick="display(this)">
+				<input type="button" value="*" class="button"  onclick="display(this)">
+				<input type="button" value="1" class="button"  onclick="display(this)">
+				<input type="button" value="2" class="button"  onclick="display(this)">
+				<input type="button" value="3" class="button"  onclick="display(this)">
+				<input type="button" value="-" class="button"  onclick="display(this)">
+	    		<input type="button" value="0" class="button"  onclick="display(this)">
+				<input type="button" value="." class="button"  onclick="point()">
+				<input type="button" value="←" class="button"  onclick="back()">
+				<input type="button" value="+" class="button"  onclick="display(this)">
+				<input type="button" value="(" class="button"  onclick="display(this)">
+				<input type="button" value=")" class="button"  onclick="display(this)">
+				<input type="button" value="CE" class="button" onclick="clean()">
+				<input type="button" value="=" class="button"  onclick="equal()">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
